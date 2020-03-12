@@ -15,5 +15,6 @@ def bracket_pattern(input_str):
 	            count = count-1
 	    result = True if count == 0 else False
 	return result
-input_str="(())("
+#Let input be "(())("
+input_str = input()
 print(bracket_pattern(input_str))
