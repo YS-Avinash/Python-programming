@@ -4,7 +4,6 @@ Ignore the spaces or any other special character in the sentence."""
 
 
 def count_digits_letters(sentence):
-    #start writing your code here
     num_count , char_count = 0 , 0
     for char in sentence:
         if char.isdigit():
@@ -14,5 +13,5 @@ def count_digits_letters(sentence):
     
     return [char_count,num_count]
 
-sentence="Infosys Mysore 570027"
+sentence=input("Enter a string : ")
 print(count_digits_letters(sentence))
