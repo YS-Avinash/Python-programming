@@ -1,5 +1,7 @@
 '''Python function which accepts a string and returns a string made of the first 2 and the last 2 characters of the given string.
-If the string length is less than 2, return -1.'''
+If the string length is less than 2, return -1.
+For the input "w3resource"  the output will be w3ce and for input "A" it will be -1.
+'''
 def string_both_ends(input_string):
 	#start writing your code here
     if len(input_string)<2:
