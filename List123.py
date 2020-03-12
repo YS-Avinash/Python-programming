@@ -6,5 +6,6 @@ def list123(nums):
     #start writing your code here
     val = "".join(map(str,nums))
     return "123" in val
-nums=[1,2,3,4,5]
+#Let nums input be [1,2,3,4,5]
+nums = eval(input())
 print(list123(nums))
