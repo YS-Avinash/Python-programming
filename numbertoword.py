@@ -45,5 +45,5 @@ def integer_to_english(number):
     return res
 
 
-number=input("Enter a number:")
+number=input("Enter a number: ")
 print(integer_to_english(number))
